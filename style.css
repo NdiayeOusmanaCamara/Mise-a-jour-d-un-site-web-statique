@@ -499,11 +499,12 @@ justify-items: center;
 
 }
 .about .left img {
-  /* height: 42vh; */
-  /* margin: auto; */
-  padding: 40px;
-  border-radius: 50px;
-}
+    /* height: 42vh;
+    margin: auto; */
+    padding: 40px;
+    border-radius: 50px;
+    width: 100%;
+  }
 .about .right{
     background-color: #f8fafc;
     /* height: 35vh; */
@@ -1197,6 +1198,12 @@ font-size: 36px;
         justify-content: center;
         
     }
+    .contact .left img {
+        width: 80%;
+        margin-top: 45px;
+        border-radius: 32px;
+        height: 100vh;
+      }
     .contact .right{
         display: flex;
         justify-content: center;
@@ -1252,7 +1259,16 @@ font-size: 36px;
         align-items: center;
         text-align: center;
     }
-   
+    .box2{
+        width: 30%;
+        text-align: left;
+        line-height: 0.5;
+    }
+   .box1 p{
+    width: 30%;
+    text-align: left;
+    line-height: 2;
+ }
     .services_list{
         display: flex;
         justify-content: center;
