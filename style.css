@@ -1004,7 +1004,7 @@ font-size: 36px;
 }
 .service{
     line-height: 1.5;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     border-right: 1px solid var(--white);
     padding: 20px;
 }
@@ -1026,7 +1026,7 @@ font-size: 36px;
 
     
 
-@media screen and (max-width: 964px){
+@media screen and (max-width: 800px){
     .box{
         display: flex;
         justify-content: center;
@@ -1049,13 +1049,13 @@ font-size: 36px;
         padding-top: 150px;
       }
       #home1 .left{
-        /* width: 100%; */
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       #home1 .left h1 {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         text-align: center;
       }
@@ -1068,9 +1068,9 @@ font-size: 36px;
         top: 35px;
       }
       #home1 .right img {
-        width: 60%;
+        width: 50%;
         border-radius: 20px;
-        margin-top: 200px;
+        margin-top: 50px;
       }
     /* } */
     .comment_section h1{
@@ -1144,9 +1144,15 @@ font-size: 36px;
         cursor: pointer;
         margin-top: 20px;
         
-        right: 80px;
+        right: 50px;
       }
-    
+      
+    .logo{
+        width: 100%;
+    }
+    .logo img{
+        width: 150px;
+    }
     .toggle_menu::before{
         position: absolute;
         content: "";
@@ -1205,13 +1211,12 @@ font-size: 36px;
         flex-direction: column;
         margin-top: 40px;
     }
-    .about .left{
+    .about .left {
         width: 100%;
-
-
-    }
+        padding-top: 100px;
+      }
     .about .left img{
-        width: 62%;
+        width: 50%;
        
     }
     .about .right{
@@ -1346,18 +1351,31 @@ font-size: 36px;
         justify-content: center;
         padding-bottom: 15px;
     }
-    .cp2{
+    .cp2 {
         display: flex;
-        width: 100%;
+        width: 80%;
         justify-content: center;
         gap: 20px;
-
-}
+        flex-direction: column;
+     }
 .cp1{
     width: 80%;
 }
+.service p {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 2;
+  }
+.cp1 {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 40px;
+    color: white;
+    flex-direction: column;
+ }
 .service img{
-    width: 50%;
+    width: 80%;
 }
 .footer_text{
     font-size: 12px;
@@ -1426,7 +1444,16 @@ margin-top: 10px;
     width: 10%;
     left: 0;
 }
+.service{
+    width: 80%;
+    border-bottom: 1px solid var(--white);
+    border-right: none;
 }
+.cp2 .t2{
+    width: 80%;
+}
+}
+
 /* sign-up */
 .sign{
     /* padding: 90px; */
