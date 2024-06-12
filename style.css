@@ -35,7 +35,7 @@ section{
 .p-bas{
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
     padding: 40px;
     width: 100%;
     color: #ffffff;
@@ -102,7 +102,7 @@ hr{
     padding: 20px 0px 20px 30px;
   }
 .logo span{
-    color: var(--primary);
+    color: #516EFF;
     padding: 450px 0;
    
   
@@ -125,21 +125,21 @@ hr{
 
 }
 #hom{
-    color: var(--lightprimary);
+    color:#516EFF;
 }
 #g{
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
     color: var(--white);
     width: 200px;
     cursor: pointer;
    
 }
 #g:hover{
-    color: var(--lightprimary);
+    color: #516EFF;
     background-color: var(--white);
 }
 #f{
-    background-color:var(--lightprimary);
+    background-color:#516EFF;
     color: #ffff;
     padding: 9px 30px 9px 30px;
     border-radius: 10px ;
@@ -148,7 +148,7 @@ hr{
 
 
 .menu li a:hover{
-   color: var(--lightprimary);
+   color: #516EFF;
 }
 #home{
 display: flex;
@@ -188,7 +188,7 @@ width: 100%;
 }
 .btn  button{
     margin-top: 50px;
-    color: var(--primary);
+    color: #516EFF;
     font-size: 25px;
     padding: 10px ;
     border-radius: 5px;
@@ -200,7 +200,7 @@ width: 100%;
     font-size: 10px;
     font-weight:100;
     text-align: center;
-    border: 1px solid var(--primary);
+    border: 1px solid #516EFF;
    
 
     
@@ -213,7 +213,7 @@ width: 100%;
  } */
  .btn  button:hover{
     color: #f8fafc;
-    background-color: var(--lightprimary) 
+    background-color: #516EFF; 
    
 
 }
@@ -236,7 +236,7 @@ width: 100%;
 
 /* menu css */
 .d input button{
-    background-color: var(lightprimary);
+    background-color: #516EFF;
     width: 40px;
 }
 #menu {
@@ -386,7 +386,7 @@ position: relative;
 /* section help  */
 .help{
    
-    background-color: var(lightprimary);
+    background-color: #516EFF;
     padding: 40px;
     width: 100%;
     color: #ffffff;
@@ -415,7 +415,7 @@ justify-items: center;
     width: 300px;
     padding:  10px;
     justify-items: center;
-    background-color: var(lightprimary);
+    background-color: #516EFF;
     color: #ffff;
     margin-left: 46px;
     font-size: 25px;
@@ -425,12 +425,12 @@ justify-items: center;
 }
 .tn button:hover{
     margin-top: 40px;
-    border:1px solid var(lightprimary);
+    border:1px solid #516EFF;
     width: 300px;
     padding:  10px;
     justify-items: center;
     background-color: #ffffff;
-    color: var(lightprimary);
+    color: #516EFF;
     margin-left: 46px;
     font-size: 25px;
     border-radius: 10px;
@@ -644,7 +644,7 @@ flex-direction: column;
  }
 .btn  button{
     margin-top: 10px;
-    color:var(lightprimary);
+    color:#516EFF;
     font-size: 1px;
     padding: 10px ;
     border-radius: 5px;
@@ -653,14 +653,14 @@ flex-direction: column;
     width: 150px;
     background-color: transparent;
     font-size: 15px;
-    border: 1px solid var(lightprimary);
+    border: 1px solid #516EFF;
     text-align:center ;
 
     
  }
  .btn  button:hover{
     color: #f8fafc;
-    background-color: var(lightprimary); 
+    background-color: #516EFF; 
     transition: transform 0.01s;
 
 }
@@ -670,7 +670,7 @@ display: flex;
 justify-content: center;
 
 width: 100%;
-background-color: var(lightprimary); 
+background-color: #516EFF; 
 position: relative; 
  padding: 40px; 
  
@@ -788,7 +788,7 @@ font-size: 36px;
     font-size: 15px;
     font-size: small;
     padding-top: 10px;
-    color: #333;
+    color: #52525B;
     flex-direction: column;
     width: 100%;
 
@@ -809,19 +809,28 @@ font-size: 36px;
     width: 100%;
     resize: none;
     height: 30vh;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--muted);
+   
   }
 .t{
     font-size: 13px;
     margin-top: 10px;
+    line-height: 2;
+}
+.t label{
+    color: #52525B;
 }
 
 .f input{
     width: 100%;
     padding: 15px;
     border-radius: 5px;
-    color: transparent;
-    color: var(--muted);
+    /* color: transparent; */
+    color: #52525B;
     margin-top: 5px;
+    border: 1px solid var(--muted);
 }
 .f select {
     width: 100%;
@@ -830,12 +839,13 @@ font-size: 36px;
     color: var(--muted);
     margin-top: 5px;
     background-color: transparent;
+    border: 1px solid var(--muted);
   }
 
 #reservation form input[type="submit"]{
     margin-top: 15px;
     color: var(--white);
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
 
     padding: 15px;
     width: 100%;
@@ -845,13 +855,13 @@ font-size: 36px;
  
 #reservation form input:hover[type="submit"]{
         margin-top: 15px;
-        color:  var(--lightprimary);
+        color:  #516EFF;
         background-color: var(--white);
         cursor: pointer;
         padding: 15px;
         width: 100%;
         border-radius: 10px;
-        border: 1px solid var(--lightprimary);
+        border: 1px solid #516EFF;
     
 }
 #subscribe{
@@ -936,7 +946,7 @@ font-size: 36px;
 /* footer css*/
 .services_list{
     display: flex;
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
     justify-content: center;
     gap: 40px;
 
@@ -962,6 +972,7 @@ font-size: 36px;
 .service a{
     color: var(--white);
     font-size: 12px;
+    text-decoration: none;
 }
 .service p{
     color: var(--white);
@@ -981,12 +992,13 @@ font-size: 36px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .service{
     line-height: 1.5;
     margin-top: 40px;
     border-right: 1px solid var(--white);
-    
+    padding: 20px;
 }
 .service img{
     font-size: 1.5rem;
@@ -996,8 +1008,8 @@ font-size: 36px;
 .footer_text{
     text-align: center;
     font-size: 15px;
-    padding-top: 15px;
-    background-color:var(--primary);
+    padding: 15px;
+    background-color:#216583;
 
     width: 100%;
     color:var(--white);
@@ -1584,10 +1596,12 @@ font-size: 14px;
         
         /* height: 3vh; */
      margin-top: 2px;
+     border-radius: 5px;
        
         /* transform: translate(-50%); */
        
       }
+     
       /* .content-forme {
         margin-top: 10px;
         width: 100%;
