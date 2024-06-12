@@ -118,7 +118,7 @@ hr{
 .menu li a {
     font-size:14px ;
     text-decoration: 0;
-    color: var(--muted);
+    color: #52525B;
     position: relative;
 
     
@@ -280,7 +280,7 @@ width: 100%;
 font-size: 20px;
 width: 900px;
 padding-top: 90px;
-color: #333;
+color: #18181B;
 height: 500px;
 margin: 20px;
 position: relative;
@@ -364,6 +364,7 @@ position: relative;
 }
 .dishes .dish h2 {
     font-size: 14px;
+    color: #18181B;
   }
 .dishes .dish img {
     width: 130px;
@@ -373,13 +374,14 @@ position: relative;
 
 .dishes .dish p{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: 0;
-    color: #333;
+    color: #777777;
     border-radius: 6px;
     position: relative;
     margin-top: 10px;
-    line-height: 2;
+    line-height: 1.5;
+    font-weight: bolder;
    
    
 }
@@ -511,12 +513,12 @@ justify-items: center;
 }
 .about .right h3 {
     font-size: 20px;
-    color: #333;  
+    color: #18181B;  
 }
 .about .right p {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: #333;
+    color: #777777;
     padding-top: 10px;
     line-height: 2;
   }
@@ -601,7 +603,7 @@ text-align: center;
 }
 .commentse p{
     font-size: 14px;
-    color: var(--silver);
+    color: #777777;
 }
 .comment{
     text-align: center;
@@ -1085,15 +1087,7 @@ font-size: 36px;
         margin: 20px  0;
       }
       .p {
-        /* color: #333;
-        background-color: #f8fafc;
-        padding: 50px;
-        position: relative; */
         width: 150px;
-        /* border-radius: 15px;
-        font-size: 16px;
-        text-align: center;
-        justify-content: space-around; */
         margin-bottom: 50px;
         padding: 20px;
         height: 100px;
@@ -1111,7 +1105,7 @@ font-size: 36px;
         font-size: 20px;
         width: 900px;
         padding-top: 90px;
-        color: #333;
+        color: #18181B;
         height: 500px;
         margin: 20px;
         position: relative;
@@ -1151,14 +1145,14 @@ font-size: 36px;
         transition: 0.5s;
         /* left: 40px;
         top:15px; */
-        border: 2px solid var(--primary) ;
-        background-color: var(--primary);
-        box-shadow: 0 10px 0 var(--primary);
+        border: 2px solid #516EFF ;
+        background-color: #516EFF;
+        box-shadow: 0 10px 0 #516EFF;
         transform: translateY(-10px);
     }
     .toggle_menu.active::before{
         transform: translateY(0) rotate(135deg); 
-        box-shadow: 0 0 0 var(--primary);
+        box-shadow: 0 0 0 #516EFF;
     }
    
     .toggle_menu::after{
@@ -1169,17 +1163,17 @@ font-size: 36px;
         align-items: center;
         height: 2;
         width: 28px;
-        background-color: var(--primary);
+        background-color: #516EFF;
         border-radius: 6px;
         transition: 0.05s;
-        border: 2px solid var(--primary);
+        border: 2px solid #516EFF;
         /* left: 40px;
         top: 15px; */
         transform: translateY(10px);
     }
     .toggle_menu.active::after{
         transform: translateY(0) rotate(-135deg); 
-        box-shadow: 0 0 0 var(--primary);
+        box-shadow: 0 0 0 #516EFF;
     }
     .dishes{
         display: flex;
@@ -1423,14 +1417,14 @@ margin-top: 10px;
   
 }
 .content-forme label{
-color: var(--lightprimary);
+color: #516EFF;
 font-size: 14px;
 }
 
 .sign form input[type="submit"] {
     margin-top: 15px;
     color: var(--white);
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
     padding: 15px;
     width: 100%;
     border-radius: 10px;
@@ -1460,7 +1454,7 @@ font-size: 14px;
         font-size: 15px;
         font-size: small;
         padding-top: 10px;
-        color: #333;
+        color: #18181B;
         flex-direction: column;
         width: 100%;
       }
@@ -1530,7 +1524,7 @@ font-size: 14px;
     flex-direction: column;
   }
 .content-forme label{
-color: var(--primary);
+color: #516EFF;
 font-size: 14px;
 }
 .login .content {
@@ -1559,7 +1553,7 @@ font-size: 14px;
   .login form input[type="submit"] {
     margin-top: 15px;
     color: var(--white);
-    background-color: var(--lightprimary);
+    background-color: #516EFF;
     padding: 15px;
     width: 100%;
     border-radius: 10px;
@@ -1571,7 +1565,7 @@ font-size: 14px;
       
     .login form input:hover[type="submit"] {
         /* margin-top: 15px; */
-        color: var(--primary);
+        color: #516EFF;
         background-color: var(--white);
         padding: 15px;
         width: 100%;
@@ -1589,7 +1583,7 @@ font-size: 14px;
         border-radius: 12px;
         line-height: 1;
         /* width: 100%; */
-        outline-color: #0056b3;
+        outline-color: #516EFF;
         border: 1px solid var(--muted);
       }
       #checkbox {
@@ -1598,34 +1592,10 @@ font-size: 14px;
      margin-top: 2px;
      border-radius: 5px;
        
-        /* transform: translate(-50%); */
+     
        
       }
      
-      /* .content-forme {
-        margin-top: 10px;
-        width: 100%;
-      }
-      .login .content-form {
-        display: flex;
-        font-size: 15px;
-        font-size: small;
-        padding-top: 10px;
-        color: #333;
-        flex-direction: column;
-      }
-      .login-content {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        line-height: 2;
-      }
-      .login h1{
-        text-align: center;
-        font-size: 32px;
-        font-weight: bold;
-      } */
-
 
 
 
